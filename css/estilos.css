@@ -1,0 +1,131 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #1C1C1C;
+}
+
+.logo {
+    border-radius: 10px;
+}
+
+span .contato {
+    margin-left: 250px;
+}
+
+.endereco {
+    font-size: 16px;
+}
+
+.rodape {
+    background-color: #1C1C1C;
+    color: rgb(222, 222, 238);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+    .contato {
+        font-size: 0.8rem;
+    }
+    .contato ::placeholder {
+        font-size: 100%;
+    }
+    .contato label {
+        font-size: 100%;
+        font-weight: normal;
+    }
+    .contato input {
+        width: 100%;
+    }
+    .contato button {
+        margin-top: -.8rem
+    }
+    .endereco h5 {
+        font-size: 0.8rem;
+    }
+    .endereco p {
+        margin-top: .1rem;
+        font-size: .8rem;
+        width: 100%;
+        text-align: left;
+    }
+    .rodape p {
+        margin-top: 0.5rem;
+        font-size: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-nav {
+        font-size: 1.2rem;
+    }
+    .descricao h1 {
+        font-size: 1.6rem;
+    }
+    .servicos h1 {
+        font-size: 1.2rem;
+    }
+    .servicos h5 {
+        font-size: 1.0rem;
+    }
+    .Lista1,
+    h5,
+    ul {
+        font-size: 1.2rem;
+        padding-bottom: 5px;
+        text-align: center;
+    }
+    .container h1 {
+        font-size: 1.5rem
+    }
+    .container h2 {
+        margin-top: 1rem;
+        font-size: 1.1rem;
+    }
+    .container p {
+        font-size: 0.9rem;
+        margin-top: 1rem;
+        text-align: justify;
+    }
+    .container img {
+        width: 100%;
+    }
+    .contato {
+        font-size: 0.8rem;
+    }
+    .contato ::placeholder {
+        font-size: 0.7rem;
+    }
+    .contato label {
+        font-size: 0.8rem;
+        font-weight: normal;
+    }
+    .contato input {
+        width: 100%;
+    }
+    .contato button {
+        margin-top: -.8rem
+    }
+    .endereco h5 {
+        font-size: 0.8rem;
+    }
+    .endereco p {
+        margin-top: -0.1rem;
+        font-size: 0.6rem;
+        width: 100%;
+        text-align: left;
+    }
+    .rodape p {
+        margin-top: 0.5rem;
+        font-size: 0.6rem;
+        width: 100%;
+    }
+    .whatsapp {
+        font-size: 0.8rem;
+        margin-top: 0.2rem;
+    }
+    .whatsapp img {
+        width: 1.2rem
+    }
+}
